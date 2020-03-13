@@ -1,17 +1,26 @@
 
 body {
   margin:auto;
-  max-width: 75%;
   min-height:90vh;
   text-align:center;
-  background-color:white;
-  
+  background-color:#fff;
 }
 
+section {
+  text-align: center;
+  max-width: 75%;
+  margin:auto;
+}
+
+
+.title {
+  margin-top:50px;
+}
 
 .tags {
   display: flex;
   justify-content:space-around;
+  margin-top:50px;
   
 }
 
@@ -19,6 +28,14 @@ body {
   margin:10px;
   padding:10px;
   font-size:100%!important;
+}
+
+.carousel {
+  margin-top:80px;
+}
+
+.row {
+  margin-top:50px;
 }
 
 
@@ -59,4 +76,8 @@ h3 a{
 .card-title{
   color:#000!important;
 
+}
+
+.about {
+  margin-top:50px;
 }
