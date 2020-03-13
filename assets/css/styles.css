@@ -1,0 +1,62 @@
+
+body {
+  margin:auto;
+  max-width: 75%;
+  min-height:90vh;
+  text-align:center;
+  background-color:white;
+  
+}
+
+
+.tags {
+  display: flex;
+  justify-content:space-around;
+  
+}
+
+.badge {
+  margin:10px;
+  padding:10px;
+  font-size:100%!important;
+}
+
+
+@media (max-width:840px){
+ .title {
+    font-size:50px!important;   
+ }
+
+ .tags {
+  flex-wrap:wrap;  
+    
+}
+
+.badge {
+  margin-left:5px;
+}
+
+}
+  
+
+
+/*boostrap cards*/
+
+.cards {
+  margin-top:100px!important;
+}
+
+h2 {
+  text-align:center;
+}
+
+h3 a{
+  color:#000!important;
+  
+
+}
+  
+.card-title{
+  color:#000!important;
+
+}

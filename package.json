@@ -1,0 +1,19 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "I'm Raquel Marques and I'm a Junior Web Developer. This is my portfolio website",
+  "main": "home.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaquelMarques97/my-portfolio"
+  },
+  "author": "Raquel Marques",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaquelMarques97/my-portfolio/issues"
+  },
+  "homepage": "https://github.com/RaquelMarques97/#readme"
+}
