@@ -1,9 +1,15 @@
 
 body {
   margin:auto;
-  min-height:90vh;
   text-align:center;
   background-color:#fff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex:1;
 }
 
 section {
@@ -14,7 +20,7 @@ section {
 
 
 .title {
-  margin-top:50px;
+  margin-top:10px;
 }
 
 .tags {
@@ -31,18 +37,37 @@ section {
 }
 
 .carousel {
-  margin-top:80px;
+  margin-top:40px;
 }
 
 .row {
   margin-top:50px;
 }
 
+.title-category {
+  margin-top:100px;
+}
+
+.col-md-4:hover {
+  filter:brightness(50%);
+
+}
+
+.col-md-6:hover {
+  filter:brightness(50%);
+
+}
+
 
 @media (max-width:840px){
  .title {
-    font-size:50px!important;   
+    font-size:35px;   
  }
+
+ .title-category {
+  margin-top:50px;
+}
+
 
  .tags {
   flex-wrap:wrap;  
@@ -63,7 +88,7 @@ section {
   margin-top:100px!important;
 }
 
-h2 {
+h2 {  
   text-align:center;
 }
 
@@ -78,6 +103,16 @@ h3 a{
 
 }
 
+.card-title-category {
+  margin-top: 60px;
+}
+
+/*about*/
+
 .about {
   margin-top:50px;
+}
+
+.card-text-about {
+  text-align:justify;
 }
