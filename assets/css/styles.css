@@ -43,6 +43,7 @@ body {
 .main-nav li {
   text-align: center;
   margin: 15px auto;
+  width:150px;
 }
 
 .logo {
@@ -211,4 +212,9 @@ h3 a{
 
 .card-text-about {
   text-align:justify;
+}
+
+
+.contacts {
+  margin-top:100px;
 }
